@@ -32,3 +32,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+body{
+  font-family: "Jost", sans-serif;
+  /* font-family: "Inter Tight", sans-serif;
+  font-family: "DM Serif Display", serif; */
+}
+
+.container{
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
