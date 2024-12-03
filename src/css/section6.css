@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,40 +5,49 @@ body {
     background-color: #f9f9f9;
 }
 
+h1, p {
+    margin: 0;
+}
+
 .recent-projects {
-    padding: 50px 20px;
     text-align: center;
+    padding: 50px 20px;
     background-color: #fff;
 }
 
 .recent-projects h1 {
     font-size: 2.5em;
-    margin-bottom: 10px;
     color: #333;
+    margin-bottom: 10px;
 }
 
 .recent-projects p {
-    font-size: 1.1em;
     color: #666;
+    font-size: 1.1em;
     margin-bottom: 40px;
-    line-height: 1.6;
     max-width: 600px;
+    line-height: 1.6;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .project-card {
-    background-color: #fff;
-    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative; /* Для стрелки */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -50,23 +58,32 @@ body {
 
 .project-card img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: auto;
+    display: block;
 }
 
-.project-info {
-    padding: 20px;
-    text-align: left;
-}
-
-.project-info h3 {
-    font-size: 1.3em;
-    margin: 0 0 10px;
+.project-card h3 {
+    font-size: 1.2em;
     color: #333;
+    margin: 15px 10px 5px;
 }
 
-.project-info p {
-    font-size: 1em;
-    margin: 0;
+.project-card p {
+    font-size: 0.9em;
     color: #777;
+    margin: 0 10px 15px;
+}
+
+
+.project-card .arrow {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .arrow {
+    transform: translateX(5px);
 }
