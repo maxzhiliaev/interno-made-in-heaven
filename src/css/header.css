@@ -1,3 +1,26 @@
-.header {
-    
+.header_container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 484px;
+    padding-top: 26px;
+    padding-bottom: 18px;
+}
+
+.header_logo{
+    max-width: 177px;
+    max-height: 50px;
+}
+
+.header_list{
+    max-width: 538px;
+    max-height: 62px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header_list-home{
+    color: #CDA274;
 }
