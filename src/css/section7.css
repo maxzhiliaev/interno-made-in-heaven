@@ -1,41 +1,47 @@
-.statistics-section {
-    background-color: #f6f2ea;
-    padding: 50px 20px;
-  }
-  
-  .statistics-section .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-  }
-  .stat-item {
-    text-align: center;
-    flex: 1;
-    margin: 0 15px;
-  }
-  
-  .stat-item h2 {
-    font-size: 3rem;
-    color: #d1af7a;
-    margin: 0;
-  }
-  
-  .stat-item p {
-    font-size: 1.2rem;
-    color: #7a6f5a;
-    margin: 10px;
-  }
-  
+body {
+  background-color: #f8f8f2;
+  color: #CCA376;
+}
 
-  @media (max-width: 768px) {
-    .statistics-section .container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .stat-item {
-      margin-bottom: 20px;
-    }
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 90px;
+  width: 1440px;
+  height: 475px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 16px;
+  margin: 10px 0 0;
+}
+
+.divider {
+  width: 1px;
+  height: 150px;
+  background-color: #CCA376;
+}
+
+@media screen and (max-width: 768px) {
+  .stats-section {
+    flex-direction: column;
   }
+
+  .divider {
+    display: none;
+  }
+
+  .stat {
+    margin-bottom: 20px;
+  }
+}
