@@ -1,0 +1,50 @@
+.section_first {
+    background-image: url(../img/background-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 831px;
+    width: 1440px;
+}
+
+.section_first-h1 {
+    font-family: DM Serif Display;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 800px;
+    padding-bottom: 18px;
+    padding-top: 188px;
+}
+
+.section_first-p {
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 550px;
+    padding-bottom: 35px;
+}
+
+.section_first-button{
+    display: flex; 
+    justify-content: center;
+    width: 207px;
+    height: 71px;
+    background-color: #292F36;
+    border-radius: 18px;
+    align-items: center;
+    gap: 16px;
+}
+
+.section_first-button-text{
+color: #FFFFFF;
+}
+
