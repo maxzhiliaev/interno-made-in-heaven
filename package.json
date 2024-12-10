@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --base=/project-name/",
+    "build": "vite build --base=/https://github.com/maxzhiliaev/interno-made-in-heaven/settings/access/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -17,6 +17,7 @@
   "dependencies": {
     "body": "^5.1.0",
     "body-scroll-lock": "^4.0.0-beta.0",
+    "project-name": "file:",
     "skroll": "^1.4.3",
     "swiper": "^10.0.4",
     "vite-plugin-full-reload": "^1.0.5",
