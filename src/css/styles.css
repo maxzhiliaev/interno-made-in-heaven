@@ -43,3 +43,16 @@ body{
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 21px 34px 23px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  border-radius: 18px;
+}
