@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=DM+Serif+Display&display=swap');
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.text-section {
+    max-width: 50%;
+    padding-right: 20px;
+    width: 505px ;
+}
+.text-section h1 {
+    font-family:'DM Serif Display', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.text-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.contact {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.contact span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact span img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 25px;
+    margin:9% 8px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #555;
+}
+.button img {
+    width: 16px;
+    margin-left: 10px;
+}
+ 
+   .image-section  {
+        max-width: 40%;
+        overflow: hidden;
+        border-radius: 20px;
+        position: relative;
+}
+    .image-section img {
+        width: 100%;
+        height: auto;
+        border-radius: 30px; 
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+        clip-path: inset(5% 5% 5% 5% round 20px);
+}

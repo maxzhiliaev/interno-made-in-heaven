@@ -1,0 +1,23 @@
+.partners-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+
+  .partners-section .logos {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+  }
+
+  .partners-section img {
+    max-width: 120px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  .partners-section img:hover {
+    opacity: 1;
+  }
