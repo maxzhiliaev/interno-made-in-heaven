@@ -39,8 +39,8 @@ body {
   position: absolute;
   top: 15px;
   left: 15px;
-  background: black;
-  color: #fff;
+  background: rgb(255, 255, 255);
+  color: #6f6f6f;
   font-size: 14px;
   padding: 5px 12px;
   border-radius: 4px;
