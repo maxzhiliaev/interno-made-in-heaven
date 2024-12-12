@@ -39,7 +39,7 @@ body {
   position: absolute;
   top: 15px;
   left: 15px;
-  background: #000;
+  background: black;
   color: #fff;
   font-size: 14px;
   padding: 5px 12px;
@@ -70,16 +70,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-.arrow:hover {
-  transform: scale(1.1);
 }
 
 .arrow img {
-  width: 16px;
-  height: 16px;
-  filter: invert(1); 
+  width: 10px;
+  height: 10px;
 }
