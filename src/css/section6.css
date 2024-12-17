@@ -79,8 +79,8 @@ h1, p {
 }
 
 .project-button{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background-color: #f8f8f2;
     display: flex;
