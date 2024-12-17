@@ -1,0 +1,103 @@
+.footer-section {
+  display: flex;
+  gap: 16px;
+  padding: 50px 0;
+}
+.footer-logo {
+  padding-bottom: 15px;
+}
+.footer-info {
+  color: #4d5053;
+  padding-bottom: 30px;
+  width: 393px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  gap: 10px;
+}
+.footer-text{
+  padding-bottom: 10px;
+}
+.footer-social {
+  display: flex;
+  gap: 40px;
+  padding-top: 10px;
+}
+
+.footer-links {
+  width: 210px;
+}
+.footer-links2 {
+  width: 210px;
+}
+.footer-contact {
+  color: #4D5053;
+  width: 337px;
+}
+.footer-link-title {
+  font-family: "DM Serif Display", serif;
+  color: #292f36;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  letter-spacing: 0.22px;
+  padding-bottom: 21px;
+
+}
+.footer-link {
+  color: #4d5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+
+}
+.footer-bottom {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 60px;
+  padding: 35px 15px;
+  text-align: center;
+}
+.footer-bottom-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+.footer-bottom-link {
+  font-size: 22px;
+  font-weight: 400;
+  gap: 10px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #cda274;
+}
+.footer-address {
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.22px;
+margin-bottom: 29px;
+}
+.footer-email {
+display: inline-block;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.22px;
+margin-bottom: 30px;
+}
+.footer-phone {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+.footer-navigation{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
