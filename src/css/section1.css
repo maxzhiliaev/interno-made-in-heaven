@@ -1,9 +1,8 @@
 .section_first {
     background-image: url(../img/background-image.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 831px;
-    width: 1440px;
 }
 
 .section_first-h1 {
